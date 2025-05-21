@@ -6,11 +6,11 @@ st.write(
 )
 st.image("IMG_20250520_165409.jpg", width=200) 
 
-st. title(“topup termurah") 
-st. header("aplikasi untuk topup semua game") 
+st.title(“topup termurah") 
+st.header("aplikasi untuk topup semua game") 
 angka = st. number_input("tuliskan sebuah angka:", value=0, step=1) 
 
 if (angka % 2) == 0:
-    st. write(f"{angka} gacor kang") 
+    st.write(f"{angka} gacor kang") 
 else:
-    st. write(f"{angka} habisin duitnya disni😡") 
+    st.write(f"{angka} habisin duitnya disni😡") 
